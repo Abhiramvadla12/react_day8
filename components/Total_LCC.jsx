@@ -75,7 +75,7 @@ export default class Total_LCC extends Component {
             {
                 loading ? <p>Loading......</p>
                 :
-                <p>Date : {data ?.title}</p>
+                <p>Data : {data ?.title}</p>
             }
             <p>Counter : {counter}</p>
             <button onClick={this.handleIncrement}>Increment</button>
