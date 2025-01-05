@@ -5,7 +5,7 @@ export default class Total_LCC extends Component {
         super(props)
         this.state = {
             data : null,
-            counter : 0,
+            counter : 1,
             loading:true
 
         }
